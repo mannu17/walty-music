@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&family=Raleway:wght@200&display=swap");
+body {
+  background-color: antiquewhite;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  font-family: serif, sans-serif;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  background-color: black;
+  color: rgb(246, 245, 250);
+}
+nav ul li {
+  padding: 0 12px;
+}
+.brand img {
+  width: 80px;
+  padding: 0 0px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.4rem;
+}
+.container {
+  min-height: 0;
+  background-color: black;
+  color: rgb(21, 14, 66);
+  font-family: serif;
+  display: flex;
+  margin: 0px auto;
+
+  width: 100%;
+  border-radius: 0px;
+  padding: 0px;
+  background-image: url(background.jpg);
+  background-position-y: top;
+  background-position-x: right;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1300px;
+  background-blend-mode: lighten;
+}
+.bottom {
+  position: sticky;
+  height: 80px;
+  background-color: rgb(2, 0, 0);
+  color: #eeebeb;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+.icon {
+  margin-bottom: 15px;
+}
+#progressbar {
+  width: 80vw;
+  cursor: pointer;
+}
+.songItem {
+  height: 58px;
+  display: flex;
+  background-color: rgb(1, 5, 8);
+  opacity: 80%;
+  width: 100%;
+  color: rgb(214, 205, 205);
+  margin: 12px 10px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 34px;
+  font-size: 15px;
+}
+
+.songItem img {
+  width: 45px;
+  margin: 0 10px;
+  border-radius: 30px;
+}
+.timestamp {
+  margin: 0 23px;
+}
+.timestamp i {
+  cursor: pointer;
+}
+.songinfo {
+  position: absolute;
+  left: 7vw;
+  font-family: "varela round" , sans-serif ;
+}
+.songinfo img {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
